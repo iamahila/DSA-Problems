@@ -23,3 +23,7 @@ public class PalindromNumber {
         return n == reversed;
     }
 }
+//TC: O(d)
+//SC: O(1)
+
+//reversed can be changed to long eg: 4999 to 9994 (example)

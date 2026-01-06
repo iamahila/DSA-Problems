@@ -26,3 +26,5 @@ public class IsPrime {
         return true;
     }
 }
+//TC: O(square root of N)
+//SC: O(1)

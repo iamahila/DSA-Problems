@@ -30,3 +30,17 @@ public class GCDEucledianAlg {
 
     }
 }
+//loop
+//TC: O(log(min(a,b)))
+//SC: O(1)
+
+//recursion
+// Time Complexity: O(log(min(a, b)))
+// Space Complexity: O(log(min(a, b)))
+
+
+/**
+ *
+ * “The Euclidean algorithm takes the most steps when the inputs are consecutive Fibonacci numbers,
+ *  because each modulo reduces the problem size by the smallest possible amount.”
+ */

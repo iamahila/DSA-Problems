@@ -18,3 +18,5 @@ public class ReverseNumber {
 
     }
 }
+//TC: O(d)
+//SC: O(1)

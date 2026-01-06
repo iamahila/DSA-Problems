@@ -16,3 +16,5 @@ public class CountDigits {
         System.out.println(counter);
     }
 }
+//TC: O(d)
+//SC: O(1)

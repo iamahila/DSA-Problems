@@ -17,7 +17,24 @@ public class PerfectNumber {
                 }
             }
         }
+
+        if (n <= 1) {
+            System.out.println(false);
+            return;
+        }
+
         boolean isPerfectNumber = sum == n;
         System.out.println(isPerfectNumber);
     }
 }
+//TC: O(square root of n)
+//SC: O(1)
+
+//edge case, 1 is not perfect number. so add below code:
+
+/**
+ * if (n <= 1) {
+ *     System.out.println(false);
+ *     return;
+ * }
+ */

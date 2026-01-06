@@ -15,3 +15,5 @@ public class OddEven {
         }
     }
 }
+//TC: O(1)
+//SC: O(1)

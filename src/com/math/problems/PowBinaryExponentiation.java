@@ -24,3 +24,5 @@ public class PowBinaryExponentiation {
         System.out.println(result);
     }
 }
+//TC: O(log n)
+//SC: O(1)

@@ -17,3 +17,5 @@ public class FindAllDivisor {
         }
     }
 }
+//TC: O(square root of n)
+//SC: O(1)

@@ -10,3 +10,5 @@ public class FindLastDigit {
         System.out.println(n % 10);
     }
 }
+//TC: O(1)
+//SC: O(1)

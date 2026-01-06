@@ -28,3 +28,5 @@ public class ArmstrongNumber {
         System.out.println(isArmstrong);
     }
 }
+//TC: O(d) , d -> number of digits
+//SC: O(1)
