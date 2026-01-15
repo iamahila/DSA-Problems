@@ -23,6 +23,7 @@ public class PerfectNumber {
             return;
         }
 
+        System.out.println(sum);
         boolean isPerfectNumber = sum == n;
         System.out.println(isPerfectNumber);
     }

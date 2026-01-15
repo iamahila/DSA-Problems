@@ -20,29 +20,37 @@ public class UnionOf2SortedArray {
 
         while(i < n && j < m){
 
-            if(arr1[i]<=arr2[j]){
-                if(result.isEmpty() || result.getLast() != arr1[i]){
+            if(arr1[i]< arr2[j]){
+                if(result.isEmpty() || result.get(result.size() -1) != arr1[i]){
                     result.add(arr1[i]);
                 }
                 i++;
             }
-            else{
-                if(result.isEmpty() || result.getLast() != arr2[j]){
+            else if(arr1[i] > arr2[j]){
+                if(result.isEmpty() || result.get(result.size() -1) != arr2[j]){
                     result.add(arr2[j]);
                 }
                 j++;
             }
+            else{
+                if(result.isEmpty() || result.get(result.size() -1) != arr1[i]){
+                    result.add(arr1[i]);
+                }
+                i++;
+                j++;
+            }
+
         }
 
         while(i < n){
-            if(result.isEmpty() || result.getLast() != arr1[i]){
+            if(result.isEmpty() || result.get(result.size() -1) != arr1[i]){
                 result.add(arr1[i]);
             }
             i++;
         }
 
         while(j < m){
-            if(result.isEmpty() || result.getLast() != arr2[j]){
+            if(result.isEmpty() || result.get(result.size() -1) != arr2[j]){
                 result.add(arr2[j]);
             }
             j++;
